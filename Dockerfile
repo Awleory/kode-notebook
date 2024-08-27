@@ -11,6 +11,6 @@ RUN apt-get -y install postgresql-client
 RUN chmod +x wait-for-postgres.sh
 
 RUN go mod download
-RUN go build -o auth ./cmd/main.go
+RUN go build -o notebook ./cmd/main.go
 
 CMD [ "./notebook" ]
