@@ -6,9 +6,9 @@
 Аутентификация - basic auth  
 
 Сборка и запуск  
-  make migrate  
   make build  
-  make run  
+  make run
+  make migrate  
 
 Для тестирования в корневой папке приложен файл выгрузки коллекции запросов для postman
 
