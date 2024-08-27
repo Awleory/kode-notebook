@@ -3,7 +3,7 @@ Server:
 
 db:
     username: "postgres"
-    host: "localhost"
+    host: "postgres"
     port: "5432"
     name: "kode_notebook_service"
     password: "so2037456va"
